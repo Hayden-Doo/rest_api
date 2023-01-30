@@ -1,6 +1,6 @@
-package com.doo.web_project_02.controller;
+package com.doo.rest_api.controller;
 
-import com.doo.web_project_02.dto.ClientRequest;
+import com.doo.rest_api.dto.GetRequestDto;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -59,11 +59,11 @@ public class GetApiController {
     }
 
     @GetMapping("get-query-param-03")
-    public String queryParam3(ClientRequest clientRequest) {
-        System.out.println(clientRequest.getName());
-        System.out.println(clientRequest.getAdd());
-        System.out.println(clientRequest.getAge());
+    public String queryParam3(GetRequestDto getRequestDto) {
+        System.out.println(getRequestDto.getName());
+        System.out.println(getRequestDto.getAdd());
+        System.out.println(getRequestDto.getAge());
 
-        return clientRequest.toString();
+        return getRequestDto.toString();
     }
 }

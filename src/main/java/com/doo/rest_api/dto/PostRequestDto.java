@@ -1,4 +1,4 @@
-package com.doo.web_project_02.dto;
+package com.doo.rest_api.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

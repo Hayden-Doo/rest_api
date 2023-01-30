@@ -1,6 +1,6 @@
-package com.doo.web_project_02.dto;
+package com.doo.rest_api.dto;
 
-public class ClientRequest {
+public class GetRequestDto {
 
     private String name;
     private String add;

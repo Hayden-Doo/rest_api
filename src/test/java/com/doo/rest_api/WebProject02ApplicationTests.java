@@ -1,4 +1,4 @@
-package com.doo.web_project_02;
+package com.doo.rest_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

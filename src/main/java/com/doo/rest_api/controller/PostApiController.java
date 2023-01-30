@@ -1,13 +1,12 @@
-package com.doo.web_project_02.controller;
+package com.doo.rest_api.controller;
 
-import com.doo.web_project_02.dto.PostRequestDto;
+import com.doo.rest_api.dto.PostRequestDto;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/api")
