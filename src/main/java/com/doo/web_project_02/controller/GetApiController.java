@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-public class ApiController {
+public class GetApiController {
 
     @GetMapping("/hello")
     public String hello() {
